@@ -1,5 +1,4 @@
 
-
 class Asiento:
     def __init__ (self, color, precio, registro):
         self.color = color
@@ -46,8 +45,8 @@ class Carro:
             for l in range (0, len(self.asientos),1):
                 if self.asientos[l] != None:
                     if self.asientos[l].registro != self.registro:
-                        return "Las piezas no son originales"
+                        print("Las piezas no son originales")
                 else:
-                    return "Auto original"
+                    print("Auto original")
         else:
-            return "Las piezas no son originales"
+            print("Las piezas no son originales")
