@@ -44,8 +44,8 @@ class Auto:
             for l in range (0, len(self.asientos),1):
                 if self.asientos[l] != None:
                     if self.asientos[l].registro != self.registro:
-                        print("Las piezas no son originales")
+                        return "Las piezas no son originales"
                     else:
-                        print("Auto original")
+                        return "Auto original"
         else:
-            print("Las piezas no son originales")
+            return "Las piezas no son originales"
