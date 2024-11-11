@@ -22,7 +22,7 @@ class Motor:
         if Tipo == "electrico" or Tipo == "gasolina":
             self.tipo = Tipo
 
-class Carro:
+class Auto:
     cantidadCreados = 0
     def __init__ (self, modelo, precio, asientos, marca, motor, registro,cantidadCreados):
         self.modelo = modelo
